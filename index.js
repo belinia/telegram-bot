@@ -315,7 +315,6 @@ bot.telegram.setMyCommands([
   { command: 'dedikodu', description: 'Dedikodu yapar' },
   { command: 'kanka', description: 'Kanka mesaji verir' }
 ]);
-]);
 
 // ----------------------
 // / komutları
