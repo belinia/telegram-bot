@@ -301,14 +301,6 @@ const sohbetKomutlari = {
 };
 
 // ----------------------
-// Slash komutları Telegram'da görünsün
-// ----------------------
-bot.telegram.setMyCommands([
-  { command: 'on', description: 'Botu baslat' },
-  { command: 'off', description: 'Botu durdur' }
-]);
-
-// ----------------------
 // / komutları
 // ----------------------
 bot.command('on', ctx => ctx.reply('Bot aktif! 🚀'));
