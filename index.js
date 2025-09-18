@@ -305,15 +305,7 @@ const sohbetKomutlari = {
 // ----------------------
 bot.telegram.setMyCommands([
   { command: 'on', description: 'Botu baslat' },
-  { command: 'off', description: 'Botu durdur' },
-  { command: 'saka', description: 'Rastgele saka yapar' },
-  { command: 'motivasyon', description: 'Motivasyon verir' },
-  { command: 'romantik', description: 'Romantik mesaj atar' },
-  { command: 'fal', description: 'Fal bakar' },
-  { command: 'zihinoku', description: 'Zihin okur' },
-  { command: 'itiraf', description: 'Itiraf yapar' },
-  { command: 'dedikodu', description: 'Dedikodu yapar' },
-  { command: 'kanka', description: 'Kanka mesaji verir' }
+  { command: 'off', description: 'Botu durdur' }
 ]);
 
 // ----------------------
