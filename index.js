@@ -304,16 +304,17 @@ const sohbetKomutlari = {
 // Slash komutları Telegram'da görünsün
 // ----------------------
 bot.telegram.setMyCommands([
-    { command: 'on', description: 'Botu başlat' },
-    { command: 'off', description: 'Botu durdur' },
-    { command: 'şaka', description: 'Rastgele şaka yapar' },
-    { command: 'motivasyon', description: 'Motivasyon verir' },
-    { command: 'romantik', description: 'Romantik mesaj atar' },
-    { command: 'fal', description: 'Fal bakar' },
-    { command: 'zihinoku', description: 'Zihin okur' },
-    { command: 'itiraf', description: 'İtiraf yapar' },
-    { command: 'dedikodu', description: 'Dedikodu yapar' },
-    { command: 'kanka', description: 'Kanka mesajı verir' }
+  { command: 'on', description: 'Botu baslat' },
+  { command: 'off', description: 'Botu durdur' },
+  { command: 'saka', description: 'Rastgele saka yapar' },
+  { command: 'motivasyon', description: 'Motivasyon verir' },
+  { command: 'romantik', description: 'Romantik mesaj atar' },
+  { command: 'fal', description: 'Fal bakar' },
+  { command: 'zihinoku', description: 'Zihin okur' },
+  { command: 'itiraf', description: 'Itiraf yapar' },
+  { command: 'dedikodu', description: 'Dedikodu yapar' },
+  { command: 'kanka', description: 'Kanka mesaji verir' }
+]);
 ]);
 
 // ----------------------
